@@ -11,6 +11,9 @@ This is the simplified local version of the Smart Medicine Box. It keeps the ESP
 - **Reload** reads both calibrated load cells. It records the initial storage weight on the first run, then compares later readings with the previous baseline.
 - When a weight change matches one known pack or a unique combination, the item list is updated automatically. If multiple combinations match, the website asks you to choose instead of guessing.
 - A compact **Scale setup** panel on the same screen provides tare and calibration for both shelves.
+- <img width="1600" height="776" alt="WhatsApp Image 2026-11-04 at 15 53 04" src="https://github.com/user-attachments/assets/6e9a6976-1b6c-4eae-8f7c-4bfa366dd5cc" />
+<img width="1600" height="775" alt="WhatsApp Image 2026-11-04 at 15 53 15" src="https://github.com/user-attachments/assets/934b43c3-a6e8-4c9a-916f-e3f354444fd9" />
+
 
 ## Hardware used
 
@@ -92,3 +95,11 @@ Power the DHT11 module, both HX711 modules and OLED from ESP32 3V3 and GND. All 
 - `firmware/medbox_demo/` — ESP32 sketch and pin configuration
 
 The web page JavaScript and Python backend pass syntax checks. Calibration number fields are kept in place during 2.5-second live refreshes, and multiple ingestion times per item are supported (up to 16 total reminders, matching the firmware limit). The ESP32 firmware and physical load-cell accuracy still need to be verified on your actual board and wiring.
+DEMO: 
+
+https://github.com/user-attachments/assets/a05dae6e-fc6c-4b35-93ba-3f499183549f
+
+
+
+https://github.com/user-attachments/assets/47aa10aa-c8e8-413d-a77c-62a2d60d5295
+
